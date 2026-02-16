@@ -120,7 +120,7 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="last-updated">Last updated: January 25, 2026</p>
+        <p class="last-updated">Last updated: February 17, 2026</p>
 
         <h2>1. Introduction</h2>
         <p>MedConfirm ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how
@@ -142,14 +142,15 @@
         </div>
 
         <h2>2. Information We Collect</h2>
-        <p>We collect only the minimum information necessary to provide our service:</p>
+        <p>We collect only the absolute minimum information necessary to provide our service:</p>
         <ul>
-            <li><strong>Account Information:</strong> Name, email address, password</li>
-            <li><strong>Contact Information:</strong> Names, phone numbers, and email addresses of your designated alert
-                contacts</li>
-            <li><strong>Usage Data:</strong> Confirmation timestamps, reminder preferences</li>
-            <li><strong>Device Information:</strong> Device type, operating system for notifications</li>
+            <li><strong>Account Information:</strong> Your name, email address, and password</li>
+            <li><strong>Family Contact Email:</strong> Email address of your designated family contact (optional)</li>
+            <li><strong>Confirmation Data:</strong> Timestamps when you confirm your medication (date/time only)</li>
+            <li><strong>Reminder Preferences:</strong> Your chosen daily reminder time</li>
         </ul>
+        <p><strong>We do NOT collect:</strong> Phone numbers, contact names, location data, browsing history, or any
+            other personal information beyond what's listed above.</p>
 
         <h2>3. How We Use Your Information</h2>
         <p>We use your information to:</p>
@@ -167,15 +168,14 @@
             <li>Store medical or medication details</li>
         </ul>
 
-        <h2>4. SMS and Email Communications</h2>
+        <h2>4. Email Communications</h2>
         <p>By using MedConfirm, you consent to receive:</p>
         <ul>
-            <li>Daily reminder notifications to your device</li>
-            <li>SMS and email alerts sent to your designated contacts</li>
+            <li>Daily reminder notifications on your device</li>
+            <li>Email alerts sent to your designated family contact (if configured)</li>
         </ul>
-        <p>You confirm you have obtained permission from all contacts to receive these alerts. You can modify contact
-            preferences anytime in settings.</p>
-        <p>Standard SMS and data rates may apply.</p>
+        <p>You confirm you have obtained permission from your family contact to receive these email alerts. You can
+            modify or remove the family contact email anytime in settings.</p>
 
         <h2>5. Data Storage and Security</h2>
         <p>We implement industry-standard security measures to protect your data:</p>
@@ -205,9 +205,10 @@
         <h2>8. Third-Party Services</h2>
         <p>We use trusted third-party services for:</p>
         <ul>
-            <li>SMS delivery (message gateway providers)</li>
-            <li>Email delivery</li>
-            <li>Payment processing (no credit card data is stored on our servers)</li>
+            <li><strong>Database hosting:</strong> Supabase (for secure data storage)</li>
+            <li><strong>Email delivery:</strong> Azure Communication Services (for family notifications)</li>
+            <li><strong>Payment processing:</strong> Google Play / App Store (no credit card data is stored on our
+                servers)</li>
         </ul>
         <p>These providers are bound by their own privacy policies and security standards.</p>
 
